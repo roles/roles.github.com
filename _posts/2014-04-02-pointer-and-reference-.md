@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pointer and reference 指针和引用"
+title: "指针和引用"
 description: ""
 category: 
 tags: []
@@ -25,9 +25,9 @@ int main(){
 }
 {% endhighlight %}
 
-这种情况下y是x的引用，对y的修改会影响x，因此输出为
->>x : hello rolex test
->>y : hello rolex test
+这种情况下y是x的引用，对y的修改会影响x，因此输出为  
+x : hello rolex test  
+y : hello rolex test
 
 {% highlight c++ %}
 string& foo(string& x){ 
@@ -45,6 +45,6 @@ int main(){
 }
 {% endhighlight %}
 
-这种情况下y是x的引用来进行初始化，对y的修改不会影响x，因此输出为
->>x : hello rolex
->>y : hello rolex test
+这种情况下y是x的引用来进行初始化，对y的修改不会影响x，因此输出为  
+x : hello rolex  
+y : hello rolex test
