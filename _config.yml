@@ -8,8 +8,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 叶永盛的blog
-tagline: 非科班码农
+title : 跬步
+tagline: Learning Endless...
 author :
   name : 叶永盛
   email : roles568@gmail.com
