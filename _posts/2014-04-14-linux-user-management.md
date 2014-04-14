@@ -3,7 +3,7 @@ layout: post
 title: "linux用户管理"
 description: ""
 category: 
-tags: []
+tags: ["linux"]
 ---
 {% include JB/setup %}
 
@@ -30,7 +30,7 @@ GID为504
 默认shell为/bin/bash  
 
 一个用户可以同时属于多个组，但初始分组是当用户登录时设定的分组
-{% highlight shell %}
+{% highlight sh %}
 #创建分组
 groupadd data
 
