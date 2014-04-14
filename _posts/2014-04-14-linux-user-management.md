@@ -30,7 +30,7 @@ GID为504
 默认shell为/bin/bash  
 
 一个用户可以同时属于多个组，但初始分组是当用户登录时设定的分组
-{% highlight sh %}
+{% highlight bash %}
 #创建分组
 groupadd data
 
