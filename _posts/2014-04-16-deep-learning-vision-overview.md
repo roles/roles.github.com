@@ -18,7 +18,11 @@ tags: ["deep learning"]
 1998年，Lecun提出了卷积神经网络的算法应用于手写体识别(`Gradient-Based Learning Applied to Document Recognition`)  
 其模型结构大致如下：
 
-##Convolutional Boltzmann Machine
+{% raw %}
+<img src="/assets/CNN.png" width="800px" style="display:inline;"/>
+{% endraw %}
+
+##卷积玻尔兹曼机
 
 随着deep learning的流行，玻尔兹曼机的无监督预训练得到了广泛的应用  
 在图像应用中，卷积算法与玻尔兹曼机的结合对unlabel image的特征提取取得了很好的效果  
