@@ -31,7 +31,7 @@ Lee和Andrew Ng的论文(`Unsupervised Learning of Hierarchical Representations 
 用三层的玻尔兹曼机分别得到了人脸中不同层次的特征提取  
 
 {% raw %}
-<img src="/assets/deep-learning-graphics.jpg" />
+<img src="/assets/deep-learning-graphics.jpg" style="display:inline;" />
 {% endraw %}
 
 ##大规模无监督训练
