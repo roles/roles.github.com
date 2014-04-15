@@ -18,4 +18,4 @@ tags: ["deep learning"]
 1998年，Lecun提出了卷积神经网络的算法应用于书写体识别(*Gradient-Based Learning Applied to Document Recognition*)  
 其模型结构大致如下：
 
-![CNN结构]({{site.url}}/assets/CNN.png)
+<img src="{{site.url}}/assets/CNN.png" width="600px" />
