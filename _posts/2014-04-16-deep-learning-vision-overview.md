@@ -30,6 +30,10 @@ tags: ["deep learning"]
 Lee和Andrew Ng的论文(`Unsupervised Learning of Hierarchical Representations with Convolutional Deep Belief Networks`)  
 用三层的玻尔兹曼机分别得到了人脸中不同层次的特征提取  
 
+{% raw %}
+<img src="/assets/deep-learning-graphics.jpg" />
+{% endraw %}
+
 ##大规模无监督训练
 
 很多研究者则通过提供更多的训练样本，训练更大规模的模型  
@@ -40,6 +44,10 @@ Lee和Andrew Ng的论文(`Unsupervised Learning of Hierarchical Representations 
 而如此庞大的计算机集群研究者一般很难做到，因此提出了利用GPU进行高性能计算的方案  
 hinton在(`ImageNet Classification with Deep Convolutional Neural Networks`)针对ImageNet中海量的图片   
 用单机双GPU的方式实现了一个多重CNN，进行图片分类，其模型如下:
+
+{% raw %}
+<img src="/assets/ImageNet-CNN.png" width="800px" style="display:inline;"/>
+{% endraw %}
 
 进一步改进的方案是使用多机多GPU的集群方式进行计算，但其中也涉及到一些难点：  
 - GPU服务器之间的通信瓶颈
