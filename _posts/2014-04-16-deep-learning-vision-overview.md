@@ -31,7 +31,7 @@ Lee和Andrew Ng的论文(`Unsupervised Learning of Hierarchical Representations 
 用三层的玻尔兹曼机分别得到了人脸中不同层次的特征提取  
 
 {% raw %}
-<img src="/assets/deep-learning-graphics.jpg" style="display:inline;" />
+<img src="/assets/CNN.jpg" style="display:inline;" />
 {% endraw %}
 
 ##大规模无监督训练
@@ -46,7 +46,7 @@ hinton在(`ImageNet Classification with Deep Convolutional Neural Networks`)针�
 用单机双GPU的方式实现了一个多重CNN，进行图片分类，其模型如下:
 
 {% raw %}
-<img src="/assets/ImageNet-CNN.png" width="800px" style="display:inline;"/>
+<img src="/assets/CNN.png" width="800px" style="display:inline;"/>
 {% endraw %}
 
 进一步改进的方案是使用多机多GPU的集群方式进行计算，但其中也涉及到一些难点：  
