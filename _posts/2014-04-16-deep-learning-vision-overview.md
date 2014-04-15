@@ -12,13 +12,14 @@ tags: ["deep learning"]
 经典的神经网络算法在构造多层网络时，用梯度下降的方法   
 往往会在训练的过程中陷入到局部最小值难以跳出  
 而浅层结构又难以得到high level的特征   
-同时，如果简单的将图像作为一个像素vector来输入,   
+同时，如果简单的将图像作为一个像素vector来输入   
 又会忽略了图像本身邻近像素点的关联性  
 
 1998年，Lecun提出了卷积神经网络的算法应用于手写体识别(`Gradient-Based Learning Applied to Document Recognition`)  
 其模型结构大致如下   
 
-*卷积层* 每一个`feature map`选取一个filter(5*5)，一个filter共用其权重值W  
+*卷积层*   
+每一个`feature map`选取一个filter(5*5)，一个filter共用其权重值W  
 filter作为滑动窗口一样选取原图中的一定区域像素点进行线性运算(h=Wx)   
 通过遍历整张原始图片，即可得到一个feature map   
 设定多个feature map，作为对不同特征的提取   
