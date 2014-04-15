@@ -15,5 +15,5 @@ tags: ["deep learning"]
 同时，如果简单的将图像作为一个像素vector来输入，  
 又会忽略了图像本身邻近像素点的关联性   
 
-1998年，Lecun提出了卷积神经网络的算法应用于手写体识别(*Gradient-Based Learning Applied to Document Recognition*)  
-其模型结构大致如下：
+1998年，Lecun提出了卷积神经网络的算法应用于手写体识别(`Gradient-Based Learning Applied to Document Recognition`)  
+其模型结构大致如下
