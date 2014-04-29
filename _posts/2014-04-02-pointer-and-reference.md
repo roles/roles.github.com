@@ -5,8 +5,6 @@ description: ""
 category: 
 tags: ["c/c++"]
 ---
-{% include JB/setup %}
-
 `返回值为引用`如果函数返回的是引用，调用者的处理方式跟其声明有关
 
 {% highlight c++ %}
@@ -26,8 +24,8 @@ int main(){
 {% endhighlight %}
 
 这种情况下y是x的引用，对y的修改会影响x，因此输出为  
-x : hello rolex test  
-y : hello rolex test
+>x : hello rolex test  
+>y : hello rolex test
 
 {% highlight c++ %}
 string& foo(string& x){ 
@@ -46,5 +44,5 @@ int main(){
 {% endhighlight %}
 
 这种情况下y是x的引用来进行初始化，对y的修改不会影响x，因此输出为  
-x : hello rolex  
-y : hello rolex test
+>x : hello rolex  
+>y : hello rolex test

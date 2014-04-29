@@ -5,8 +5,6 @@ description: ""
 category: 
 tags: ["linux"]
 ---
-{% include JB/setup %}
-
 ##文件和目录的权限
 
 每个文件和目录都有9为权限符，如`rwxr-x---(750)`，所有者以及所有者用户组   
