@@ -1,0 +1,5 @@
+#!/bin/sh
+
+git add --all
+git commit -a -m "post"
+git push origin master
