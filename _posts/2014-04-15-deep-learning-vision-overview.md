@@ -16,7 +16,9 @@ tags: ["deep learning"]
 1998年，Lecun提出了卷积神经网络的算法应用于手写体识别(`Gradient-Based Learning Applied to Document Recognition`)  
 其模型结构大致如下：
 
-<a href="/assets/CNN.png" class="folio-image-wrapper"><img class="bordered" alt="screenshot" src="/assets/CNN.png"style="margin-top:20px; width:80%; height:80%" /></a>
+<a href="/assets/CNN.png" class="folio-image-wrapper">
+<img class="bordered" alt="screenshot" src="/assets/CNN.png"style="margin-top:20px; width:80%; height:80%" />
+</a>
 
 `卷积层` 每一个`feature map`选取一个filter(5\*5)，一个filter共用其权重值W  
 filter作为滑动窗口一样选取原图中的一定区域像素点进行线性运算(h=Wx)  
@@ -34,7 +36,9 @@ filter作为滑动窗口一样选取原图中的一定区域像素点进行线�
 Lee和Andrew Ng的论文(`Unsupervised Learning of Hierarchical Representations with Convolutional Deep Belief Networks`)  
 用三层的玻尔兹曼机分别得到了人脸中不同层次的特征提取  
 
-<a href="/assets/deep-learning-graphic.jpg" class="folio-image-wrapper"><img class="bordered" alt="screenshot" src="/assets/deep-learning-graphic.jpg"style="margin-top:20px; width:50%; height:50%" /></a>
+<a href="/assets/deep-learning-graphic.jpg" class="folio-image-wrapper">
+<img class="bordered" alt="screenshot" src="/assets/deep-learning-graphic.jpg"style="margin-top:20px; width:50%; height:50%" />
+</a>
 
 ##大规模无监督训练
 
@@ -47,7 +51,8 @@ Lee和Andrew Ng的论文(`Unsupervised Learning of Hierarchical Representations 
 hinton在(`ImageNet Classification with Deep Convolutional Neural Networks`)针对ImageNet中海量的图片   
 用单机双GPU的方式实现了一个多重CNN，进行图片分类，其模型如下:
 
-<a href="/assets/ImageNet-CNN.png" class="folio-image-wrapper"><img class="bordered" alt="screenshot" src="/assets/ImageNet-CNN.png"style="margin-top:20px; width:80%; height:80%" /></a>
+<a href="/assets/ImageNet-CNN.png" class="folio-image-wrapper"><img class="bordered" alt="screenshot" src="/assets/ImageNet-CNN.png"style="margin-top:20px; width:80%; height:80%" />
+</a>
 
 进一步改进的方案是使用多机多GPU的集群方式进行计算，但其中也涉及到一些难点：  
 - GPU服务器之间的通信瓶颈
